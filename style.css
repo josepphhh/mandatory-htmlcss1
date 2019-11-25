@@ -1,0 +1,134 @@
+
+.splash-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/0101.jpg");
+    background-size: cover;
+}
+
+.splash-screen .cta {
+    padding: 22px;
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    border-radius: 15px;
+}
+
+#about h2 {
+    text-transform: uppercase;
+}
+
+#about .card {
+    border: none;
+}
+
+#about .card .top {
+    text-align: center;
+}
+
+#about .card .top i{
+    font-size: 4rem;
+}
+
+#parallax {
+    background-image: url("img/planet.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parallax .tagline {
+    padding: 15px 40px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 4px;
+    color: #fff;
+}
+
+footer {
+    background-color: #222;
+    color:#fff;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #222;
+    height: 90px;
+    position: fixed;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: grey;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: grey;
+}
+
+.text {
+    color: #f8f9fa;
+    font-size: 100px;
+}
+ 
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style för socialmedia */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background:  #222;
+    color: white;
+  }
+  
+  .twitter {
+    background: #222;
+    color: white;
+  }
+  
+  .google {
+    background: #222;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #222;
+    color: white;
+  }
+  
+  .youtube {
+    background: #222;
+    color: white;
+  }
+  /*form {
+      background-image: url('Images/cover.jpg');
+      background-size: cover;
+  }
+  .form-group {
+      opacity: 0.4;
+  }*/
+  .bg-img {
+      background-image: url('Images/cover.jpg');
+     
+  }
